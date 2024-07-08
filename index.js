@@ -9,9 +9,9 @@ function playGame(playerChoice) {
     } else if ((playerChoice === 'rock' && computerChoice === 'scissors') || 
                 (playerChoice === 'paper' && computerChoice === 'rock') || 
                 (playerChoice === 'scissors' && computerChoice === 'paper')) {
-        result = "HUMAN WINS!";
+        result = "HUMAN!";
     } else {
-        result = "COMPUTER WINS!";
+        result = "COMPUTER!";
     }
 
     
